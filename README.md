@@ -1,1 +1,1 @@
-🌐 **Acesse o site:** [luizagsoaress.github.io](https://luizagsoaress.github.io/MathBot/)
+🌐 **Acesse o site:** [MathBot](https://luizagsoaress.github.io/MathBot/)
