@@ -1,0 +1,233 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --button: #ff0e0e;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1a1b4b 0%, #2a2171 40%, #422b8a 70%, #5a3db0 100%);
+}
+
+.container-fluid{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.form-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    text-align: center; 
+    gap: 40px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.form-h h4 {
+    background: linear-gradient(90deg, #FFFFFF 0%,  #AEEEEE 100%);
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.form-h p {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.form-container .btn-start {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 1);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    border-radius: 12px;
+    padding: 12px 16px;
+    color: white;
+    font-size: 1.2rem;
+    width: 12rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.btn-start:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    width: 100%;
+}
+
+.nav {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 20%;
+    height: 6 vh;
+}
+
+.nav .info  {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.nav .github {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.nav .swi-prolog {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+@media (max-width: 552px) {
+    .form-h h4 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    }
+
+    .form-container .btn-start {
+    font-size: 1.0rem;
+    width: 10rem;
+    }
+
+    .nav {
+    width: 40%;
+    height: 10vh;
+    }
+}
+
+.form-x {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center; 
+    gap: 40px;
+}
+.container-fluid-bot {
+    background: linear-gradient(135deg, #0b0b12 0%, #18162a 40%, #222046 70%, #302b66 100%);
+    color: #f5f5f5;
+    width: 100%;
+    height: 100%;
+}
+
+.div-custom {
+    background: linear-gradient(135deg, #15132b 0%, #1f1b3f 50%, #2a2260 100%);
+    box-shadow: 0 4px 15px rgba(48, 43, 102, 0.5);
+    backdrop-filter: blur(8px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    border-color: white;
+    border: 2px solid #fff;
+    border-radius: 22px;
+    width: 98vw;
+    height: 12vh;
+    gap: 30px;
+}
+
+.dropdown-toggle::after {
+    top: 15px;
+    right: 15px;
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: .5s;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+
+.dropdown-toggle {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.dropdown-toggle[aria-expanded=true]::after {
+    transform: rotate(-180deg);
+}
+
+.dropdown-menu.show {
+    border: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.arrow {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.account-icon {
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.username-custom {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#div-chat {
+    min-height: 75vh;
+    min-width: 95vw;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fade-out {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}

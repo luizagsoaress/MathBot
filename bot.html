@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chat bot</title>
+</head>
+<body>
+    <div class="container-fluid-bot">
+        <div class="d-flex justify-content-start align-items-center mb-5 form-x">
+            <div class="div-custom d-flex justify-content-between align-items-center mt-2">
+                <a href="main.html"><i class="fa fa-arrow-left arrow ms-4"></i></a> 
+                <a href="#" class="dropdown-toggle btn-account" data-bs-toggle="dropdown"><span class="username-custom me-4"></span><img src="imagens/account_icon.png" alt="account-icon" class="account-icon"></a>
+            <div class="dropdown-menu dropdown-menu-end">
+                <a href="#" type="button" class="dropdown-item" id="deletar"><i class="fa fa-times-circle me-3"></i>Deletar conta</a>
+                <a href="#" type="button" class="dropdown-item" id="sair"><i class="fa fa-sign-out-alt me-3"></i>Sair</a>
+            </div>
+            </div>
+            <div class="div-chat" id="div-chat"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="js/bot.js"></script>
+</body>
+</html>

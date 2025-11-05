@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <title>Inicio</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="navbar justify-content-start align-items-center mt-3">
+            <nav class="nav ms-3 d-flex align-items-center justify-content-start">
+                <div class="ms-3">
+                    <a href="#" type="button" class="info" data-bs-toggle="modal" data-bs-target = "#sobreModal"><i class="fas fa-circle-info"></i></a>
+                </div>
+                <div class="ms-3">
+                    <a href="https://github.com/luizagsoaress" class="github"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="ms-3">
+                    <a href="https://www.swi-prolog.org/" class="swi-prolog"><i class="fa fa-dove"></i></a>
+                </div>
+            </nav>
+        </div>
+        <div class="form-h">
+            <h4 class="h4">Vamos começar?</h4>
+            <p class="p-custom">O objetivo deste chat é ajudar na resolução de operações matemáticas simples, retornando o resultado final.</p>
+        </div>
+        <div class="form-container">
+            <a href="bot.html" class="btn-start">Iniciar chat</a>
+        </div>
+
+        <div class="modal fade" id="sobreModal" tabindex="-1" aria-labelledby="sobreModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="sobreModalLabel">Sobre</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body" id="textModal">
+              Esta página web foi desenvolvida como um projeto de estudo sobre HTML5, CSS e JavaScript. O banco de dados utilizado para a autenticação dos usuários e para o armazenamento de informações foi o <a href="https://firebase.google.com/" style="text-decoration: none;">Firebase</a>. As chaves privadas, assim como o código PROLOG para a geração de respostas, foram hospedados em um servidor Node.js com Express, que está em execução no <a href="https://render.com/" style="text-decoration: none;">Render</a>.
+            </div>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
