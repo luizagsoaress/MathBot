@@ -17,13 +17,13 @@ Desenvolvido em HTML5, CSS, JavaScript, as respostas são geradas em código Pro
 
 Na tela principal, o chat bot inicia com uma saudação.
 
-![image](./imagens/githubFotos/github(1).png)
+![image](./imagens/github/github(1).png)
 
 O menu de opções será exibido, junto de um menu de respostas. Após escolher uma das 6 opções disponíveis, digite o(s) valor(es) pedidos.
 
-![image](./imagens/githubFotos/github(2).png)
+![image](./imagens/github/github(2).png)
 
-![image](./imagens/githubFotos/github(3).png)
+![image](./imagens/github/github(3).png)
 
 Com tudo certo, a resposta será retornada e exibida na tela. Junto da pergunta :
 
@@ -31,7 +31,7 @@ Com tudo certo, a resposta será retornada e exibida na tela. Junto da pergunta 
 
 Respondendo sim, as mesmas perguntas serão refeitas, possibilitando novas operações. Ao contrário, você será encaminhado para uma tela final.
 
-![image](./imagens/githubFotos/github(4).png)
+![image](./imagens/github/github(4).png)
 
 ## Funcionalidades
 
